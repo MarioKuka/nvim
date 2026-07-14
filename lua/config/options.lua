@@ -4,3 +4,7 @@
 
 -- Disable LazyVim format-on-save completely.
 vim.g.autoformat = false
+
+-- Enable spell checking by default.
+vim.opt.spell = true
+vim.opt.spelllang = { "en_us" }
